@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cotización</title>
+	<link rel="stylesheet" type="text/css" href="cotizacion.css">
+	<style>
+		body{background-color: #a7c1bc}
+	</style>
+</head>
+
+<body>
+	
+	<nav>	
+<ul>
+	<il><a href="witmx.html">Home</a></il>
+	<il><a href="catalogo.html">Catálogo</a></il>
+	<il><a href="cotizacion.html">Cotización</a></il>
+	<il><a href="compras.html">Compras</a></il>
+	
+	</ul>	
+	</nav>
+
+	<div id="Titulo">
+	<h1>Manda tus preguntas o cotiza</h1>
+	</div>
+	
+
+	<div id="Nombre">
+	<p>Nombre: <input type="text" name="nombre" required></p>
+	</div>
+	<div id="Correo">
+	<p>Correo: <input type="email" name="correo" size="40" required></p>
+	</div>
+	<div id="Asunto">
+	<p>Asunto: <input type="text" name="nacionalidad" size="20" required></p>
+	</div>
+	<div id="Explicacion">
+	<p>Explique más a detalle:</p>
+	<textarea name="texto" rows="8" cols="50" placeholder="Escriba algo..." required></textarea>
+	</div>
+	<div id="Imagen">
+	<input type="file" name="archivo" value="image/*">
+	</div>
+	<div id="Boton">
+	<input type="button" onclick="mensaje('Mensaje enviado exitosamente')" value="Enviar">
+
+<script>
+  function mensaje(texto) {
+    alert(texto);
+  }
+</script>
+		</div>
+	
+	<div id="Logo">
+<img src="Imágenes/logo2.png" align="right">
+	</div>
+</body>
+</html>

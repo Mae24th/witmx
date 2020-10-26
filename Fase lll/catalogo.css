@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	
+padding: 0;
+margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 95px;
+  position: fixed;
+}
+
+il{
+	display: inline;
+	
+}
+
+il a{
+	width:250px;
+	height: 20px;
+	font-family: "Kiona-Regular";
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	padding: 10px;
+	background-color: #494949;
+	color: azure;
+}
+
+il a:hover {
+background-color: darkgray;
+	margin-top: -2;
+	padding-bottom: 12px;
+}
+
+
+#macetas p{
+	padding: 150px 0 0 200px;
+	
+}
+
+#macetas h1 {
+	
+	float:left;
+	font-family: "Comfortaa-Bold";
+	font-size: 25px;
+	color: #000000;
+	text-decoration: none;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+ #macetas h3{
+	float: right;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none;
+	margin-right: 400px;
+	margin-left: 90px;
+	margin-top: -10px;
+	font-size: 15px;
+	
+	}
+
+#macetas h4{
+	text-align: center;
+	float: left;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none; 
+	font-size: 12px;
+	margin-top: -230px;
+	margin-left: 530px;
+	margin-right: 300px;
+	}
+
+#macetas h5{
+	float: right;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none;
+	margin-right: 425px;
+	margin-left: 50px;
+	margin-top: -150px;
+	font-size: 15px;
+}
+
+
+#macetas .Ovalo {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #e5e5e5;
+	margin-bottom: -100px;
+	margin-top: 140px;
+	margin-left: 600px;
+	}
+
+#macetas .Ovalo2 {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #c5d300;
+	margin-bottom: -100px;
+	margin-top: 50px;
+	margin-left: 700px;
+}
+
+#macetas .Ovalo3 {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #825F2D;
+	margin-bottom: -100px;
+	margin-top: 50px;
+	margin-left: 810px;
+}
+
+#macetas .Ovalo4 {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #D9B6DF;
+	margin-bottom: -100px;
+	margin-top: 50px;
+	margin-left: 910px;
+}
+
+#macetas h2{
+	text-align: center;
+	float: right;
+	font-family: "Comfortaa-Bold";
+	color: #000000;
+	text-decoration: none;
+	margin-right: 430px;
+	margin-top: -30px;
+}
+.rectangulo{
+	width: 2000px;
+	height: 15px;
+	background: #CECECE;
+	margin-top: 200px;
+	}
+
+#dos p{
+	padding: 100px 0 0 200px;
+}
+
+#dos h1 {
+
+	float:left;
+	font-family: "Comfortaa-Bold";
+	font-size: 27px;
+	color: #000000;
+	text-decoration: none;
+	margin-top: 50px;
+	margin-left: 200px;
+	
+	}
+#dos h3{
+	float: right;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none;
+	margin-right: 400px;
+	margin-left: 90px;
+	margin-top: -10px;
+	font-size: 15px;
+}
+
+#dos h4{
+	text-align: center;
+	float: left;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none; 
+	font-size: 12px;
+	margin-top: -230px;
+	margin-left: 510px;
+	margin-right: 290px;
+}
+
+#dos h5{
+	float: right;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none;
+	margin-right: 425px;
+	margin-left: 50px;
+	margin-top: -150px;
+	font-size: 15px;
+}
+
+#dos .Ovalo {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #e5e5e5;
+	margin-bottom: -100px;
+	margin-top: 140px;
+	margin-left: 600px;
+	}
+
+#dos .Ovalo2 {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #C9A900;
+	margin-bottom: -100px;
+	margin-top: 50px;
+	margin-left: 700px;
+}
+#dos .Ovalo3 {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #825F2D;
+	margin-bottom: -100px;
+	margin-top: 50px;
+	margin-left: 810px;
+}
+#dos .Ovalo4{
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #000000;
+	margin-bottom: -100px;
+	margin-top: 50px;
+	margin-left: 910px;
+}
+#dos h2{
+	text-align: center;
+	float: right;
+	font-family: "Comfortaa-Bold";
+	color: #000000;
+	text-decoration: none;
+	margin-right: 430px;
+	margin-top: -30px;
+}
+
+#tres img{
+	margin-left: 200px;
+	margin-top: -135px;
+	}
+
+#tres h1 {
+	
+	float:left;
+	font-family: "Comfortaa-Bold";
+	font-size: 27px;
+	color: #000000;
+	text-decoration: none;
+	margin-top: -190px;
+	margin-left: 200px;
+}
+
+#tres h3{
+	float: right;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none;
+	margin-right: 400px;
+	margin-left: 90px;
+	margin-top: -140px;
+	font-size: 15px;
+	
+	}
+#tres h4{
+	text-align: center;
+	float: left;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none; 
+	font-size: 12px;
+	margin-top: -220px;
+	margin-left: 530px;
+	margin-right: 300px;
+	}
+#tres h5{
+	float: right;
+	font-family: "Comfortaa-Regular";
+	color: #000000;
+	text-decoration: none;
+	margin-right: 425px;
+	margin-left: 50px;
+	margin-top: -143px;
+	font-size: 15px;
+}
+#tres .Ovalo {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #e5e5e5;
+	margin-top: 250px;
+	margin-left: 600px;
+	}
+#tres .Ovalo2 {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #000000;
+	margin-bottom: -100px;
+	margin-top: -45px;
+	margin-left: 700px;
+}
+#tres .Ovalo3 {
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #D9B6DF;
+	margin-bottom: -100px;
+	margin-top: 50px;
+	margin-left: 810px;
+}
+#tres .Ovalo4{
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	background: #3A1777;
+	margin-bottom: -100px;
+	margin-top: 50px;
+	margin-left: 910px;
+}
